@@ -23,8 +23,10 @@ const auth = firebase.auth();
 function alert_pass() {
     let password = prompt("Enter in the password")
 
-    if (password === "karlogogongxdxd") {
+    if (password === "karlogogongxdxd" || password === localStorage.getItem('ero')) {
         //
+
+        localStorage.setItem('ero', password)
     } else {
         location.reload()
     }
