@@ -20,6 +20,16 @@ firebase.initializeApp(config);
 const db = firebase.firestore();
 const auth = firebase.auth();
 
+function alert_pass() {
+    let password = "karlogogongxdxd"
+
+    if (password === "karlogogongxdxd") {
+        //
+    } else {
+        location.reload()
+    }
+}
+alert_pass()
 
 db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
