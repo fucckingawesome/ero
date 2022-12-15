@@ -21,7 +21,7 @@ const db = firebase.firestore();
 const auth = firebase.auth();
 
 function alert_pass() {
-    let password = "karlogogongxdxd"
+    let password = prompt("Enter in the password")
 
     if (password === "karlogogongxdxd") {
         //
