@@ -21,7 +21,7 @@ const db = firebase.firestore();
 const auth = firebase.auth();
 
 
-db.collection("datas").get().then((querySnapshot) => {
+db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
 
    
