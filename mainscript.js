@@ -39,7 +39,7 @@ db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
    
    
    //console.log(doc.id, " => ", doc.data());
-   console.log(doc.id[0])
+//    console.log(doc.id[0])
 
    
    let wallet = doc.data().wallet
