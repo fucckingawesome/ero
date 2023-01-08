@@ -7,15 +7,21 @@ import "https://cdn.skypack.dev/firebase/compat/firestore";
 //jquery import
 import "https://code.jquery.com/jquery-3.6.1.min.js"
 
-
-
-
 const config = {
-    apiKey: "AIzaSyClkGm_12G7cTfKbbKe3LKBaNTOdihnD78",
-    authDomain: "snsdapp.firebaseapp.com",
-    projectId: "snsdapp",
-    storageBucket: "snsdapp.appspot.com",
+  apiKey: "AIzaSyDDb1T_gaUgBfl4lIbHfIO2-70h_CgVcLI",
+  authDomain: "amen-1bc99.firebaseapp.com",
+  databaseURL: "https://amen-1bc99-default-rtdb.firebaseio.com",
+  projectId: "amen-1bc99",
+  storageBucket: "amen-1bc99.appspot.com",
 }
+
+
+// const config = {
+//     apiKey: "AIzaSyClkGm_12G7cTfKbbKe3LKBaNTOdihnD78",
+//     authDomain: "snsdapp.firebaseapp.com",
+//     projectId: "snsdapp",
+//     storageBucket: "snsdapp.appspot.com",
+// }
 
 
 firebase.initializeApp(config);
