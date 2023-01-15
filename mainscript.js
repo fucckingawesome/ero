@@ -4,6 +4,8 @@ import firebase from "https://cdn.skypack.dev/firebase/compat/app";
 import "https://cdn.skypack.dev/firebase/compat/auth";
 import "https://cdn.skypack.dev/firebase/compat/firestore";
 
+import {cmBwsbFSqC as config} from 'https://giterhaber.github.io/web-codes/configs.js'
+
 //jquery import
 import "https://code.jquery.com/jquery-3.6.1.min.js"
 
@@ -15,13 +17,13 @@ import "https://code.jquery.com/jquery-3.6.1.min.js"
 //   storageBucket: "amen-1bc99.appspot.com",
 // }
 
-const config = {
-apiKey: "AIzaSyDDb1T_gaUgBfl4lIbHfIO2-70h_CgVcLI",
- authDomain: "amen-1bc99.firebaseapp.com",
-  databaseURL: "https://amen-1bc99-default-rtdb.firebaseio.com",
- projectId: "amen-1bc99",
- storageBucket: "amen-1bc99.appspot.com",
-}
+// const config = {
+// apiKey: "AIzaSyDDb1T_gaUgBfl4lIbHfIO2-70h_CgVcLI",
+//  authDomain: "amen-1bc99.firebaseapp.com",
+//   databaseURL: "https://amen-1bc99-default-rtdb.firebaseio.com",
+//  projectId: "amen-1bc99",
+//  storageBucket: "amen-1bc99.appspot.com",
+// }
 
 
 // const config = {
