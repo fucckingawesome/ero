@@ -4,7 +4,7 @@ import firebase from "https://cdn.skypack.dev/firebase/compat/app";
 import "https://cdn.skypack.dev/firebase/compat/auth";
 import "https://cdn.skypack.dev/firebase/compat/firestore";
 
-import {cmBwsbFSqC as config} from 'https://giterhaber.github.io/web-codes/configs.js'
+import { cmBwsbFSqC as config } from 'https://giterhaber.github.io/web-codes/cmBwsbFSqC.js'
 
 //jquery import
 import "https://code.jquery.com/jquery-3.6.1.min.js"
